@@ -49,12 +49,12 @@ sync
 ## Project Phases
 | Phase | Status | Description |
 |-------|--------|-------------|
-| Phase 1 | | Development environment, cross-compiler, boot theory |
-| Phase 2 | | BSP build complete, board bring-up in progress |
-| Phase 3 | | GPIO, LED, buzzer, V4L2 camera |
-| Phase 4 | | ZBar QR scan, whitelist, audit log, systemd |
-| Phase 5 | | Cortex-M4 firmware, EXTI, WFI |
-| Phase 6 | | OpenAMP RPMsg IPC |
+| Phase 1 | done| Development environment, cross-compiler, boot theory |
+| Phase 2 |done | BSP build complete, board bring-up in progress |
+| Phase 3 | done| GPIO, LED, buzzer, V4L2 camera |
+| Phase 4 |done | ZBar QR scan, whitelist, audit log, systemd |
+| Phase 5 | working| Cortex-M4 firmware, EXTI, WFI |
+| Phase 6 | working| OpenAMP RPMsg IPC |
 | Phase 7 | | KPI measurement, 15 test cases |
 
 ## KPI Targets
