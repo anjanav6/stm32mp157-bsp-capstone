@@ -18,9 +18,8 @@ Dual-core access control system using Cortex-A7 (Linux) + Cortex-M4 (bare-metal)
 ## Hardware
 - STM32MP157F-DK2 Discovery Kit
 - USB Webcam (V4L2)
-- IR proximity sensor (PE3, EXTI)
-- Relay module (PA14)
-- Green LED (PA13), Red LED (PA15)
+- User Button(PA14)
+- Green LED (PA13)
 - Buzzer (PA16)
 
 ## Build Instructions
@@ -50,13 +49,13 @@ sync
 ## Project Phases
 | Phase | Status | Description |
 |-------|--------|-------------|
-| Phase 1 | ✅ | Development environment, cross-compiler, boot theory |
-| Phase 2 | 🔄 | BSP build complete, board bring-up in progress |
-| Phase 3 | ⏳ | GPIO, relay, LED, buzzer, V4L2 camera |
-| Phase 4 | ⏳ | ZBar QR scan, whitelist, audit log, systemd |
-| Phase 5 | ⏳ | Cortex-M4 firmware, EXTI, WFI |
-| Phase 6 | ⏳ | OpenAMP RPMsg IPC |
-| Phase 7 | ⏳ | KPI measurement, 15 test cases |
+| Phase 1 | | Development environment, cross-compiler, boot theory |
+| Phase 2 | | BSP build complete, board bring-up in progress |
+| Phase 3 | | GPIO, LED, buzzer, V4L2 camera |
+| Phase 4 | | ZBar QR scan, whitelist, audit log, systemd |
+| Phase 5 | | Cortex-M4 firmware, EXTI, WFI |
+| Phase 6 | | OpenAMP RPMsg IPC |
+| Phase 7 | | KPI measurement, 15 test cases |
 
 ## KPI Targets
 | Metric | Target |
