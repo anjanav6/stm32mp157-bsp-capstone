@@ -1,0 +1,10 @@
+# CM4 binaries
+m4bin/*.elf
+
+# QR application binaries
+qr_app/camlcd
+qr_app/qr2
+qr_app/qrdisplay
+qr_app/testcam
+qr_app/testcam2
+qr_app/testcam3
