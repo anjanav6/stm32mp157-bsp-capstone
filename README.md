@@ -1,6 +1,6 @@
 # STM32MP157 DK2 Linux BSP — Capstone Project
 
-**Anjana | M.Tech Electronics Design Technology — Semester 4**
+**Anjana **
 **April – June 2026**
 
 ## Project Overview
