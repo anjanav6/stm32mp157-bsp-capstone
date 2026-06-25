@@ -5,7 +5,7 @@
 
 ## Project Overview
 
-This project implements a complete Linux BSP built from source for the STM32MP157F-DK2 Discovery Kit using Buildroot.
+This project implements a complete Linux BSP built using buildroot for the STM32MP157F-DK2 Discovery Kit.
 
 The final system demonstrates a QR-code based access control application running on Embedded Linux with:
 
